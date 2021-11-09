@@ -1,0 +1,57 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30114.105
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{B144DAC9-0A35-40FD-BD4A-68FE77715E56}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "core", "core", "{B5EFDB2C-716D-46A9-857C-14FD96AC144F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Replipg.Core", "src\core\Replipg.Core\Replipg.Core.csproj", "{95D3869E-E508-4996-89BE-769E77942354}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "server", "server", "{339BB83E-70FD-47A8-9262-A3A16AFC7DC0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Replipg.Server", "src\server\Replipg.Server\Replipg.Server.csproj", "{7EE276F7-68F8-4CE4-BB06-C287EA42069F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Replipg.Server.Core", "src\server\Replipg.Server.Core\Replipg.Server.Core.csproj", "{BA070422-12D4-4F15-8998-4E89A1D1BAD8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "client", "client", "{2F30BEA9-AD63-4F5B-8E62-052F6844DBD8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Replipg.Bot", "src\client\Replipg.Bot\Replipg.Bot.csproj", "{1095FA87-DAF3-4087-B819-EA23B1BB3D25}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{95D3869E-E508-4996-89BE-769E77942354}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{95D3869E-E508-4996-89BE-769E77942354}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{95D3869E-E508-4996-89BE-769E77942354}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{95D3869E-E508-4996-89BE-769E77942354}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7EE276F7-68F8-4CE4-BB06-C287EA42069F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7EE276F7-68F8-4CE4-BB06-C287EA42069F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7EE276F7-68F8-4CE4-BB06-C287EA42069F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7EE276F7-68F8-4CE4-BB06-C287EA42069F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BA070422-12D4-4F15-8998-4E89A1D1BAD8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BA070422-12D4-4F15-8998-4E89A1D1BAD8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BA070422-12D4-4F15-8998-4E89A1D1BAD8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BA070422-12D4-4F15-8998-4E89A1D1BAD8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1095FA87-DAF3-4087-B819-EA23B1BB3D25}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1095FA87-DAF3-4087-B819-EA23B1BB3D25}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1095FA87-DAF3-4087-B819-EA23B1BB3D25}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1095FA87-DAF3-4087-B819-EA23B1BB3D25}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{B5EFDB2C-716D-46A9-857C-14FD96AC144F} = {B144DAC9-0A35-40FD-BD4A-68FE77715E56}
+		{95D3869E-E508-4996-89BE-769E77942354} = {B5EFDB2C-716D-46A9-857C-14FD96AC144F}
+		{339BB83E-70FD-47A8-9262-A3A16AFC7DC0} = {B144DAC9-0A35-40FD-BD4A-68FE77715E56}
+		{7EE276F7-68F8-4CE4-BB06-C287EA42069F} = {339BB83E-70FD-47A8-9262-A3A16AFC7DC0}
+		{BA070422-12D4-4F15-8998-4E89A1D1BAD8} = {339BB83E-70FD-47A8-9262-A3A16AFC7DC0}
+		{2F30BEA9-AD63-4F5B-8E62-052F6844DBD8} = {B144DAC9-0A35-40FD-BD4A-68FE77715E56}
+		{1095FA87-DAF3-4087-B819-EA23B1BB3D25} = {2F30BEA9-AD63-4F5B-8E62-052F6844DBD8}
+	EndGlobalSection
+EndGlobal
