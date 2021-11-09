@@ -4,10 +4,10 @@ using Replipg.Server.Core;
 
 namespace Replipg.Server;
 
-public sealed class ReplipgModule : IReplipgModule
+internal sealed class ReplipgModule : IReplipgModule
 {
     public void ConfigureServices(IServiceCollection services)
     {
-        services.AddServerCore();
+        services.AddServerCore<ReplipgServer>();
     }
 }

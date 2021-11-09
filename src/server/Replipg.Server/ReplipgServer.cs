@@ -2,15 +2,15 @@
 
 namespace Replipg.Server;
 
-public sealed class ReplipgServer : IReplipgServer
+internal sealed class ReplipgServer : IReplipgServer
 {
     public Task StartAsync(CancellationToken cancellationToken)
     {
-        throw new NotImplementedException();
+        return Task.CompletedTask;
     }
 
     public Task StopAsync(CancellationToken cancellationToken)
     {
-        throw new NotImplementedException();
+        return Task.CompletedTask;
     }
 }

@@ -5,7 +5,7 @@ using Replikit.Core.Modules;
 
 namespace Replipg.Bot;
 
-public class ReplipgModule : ReplikitModule
+internal class ReplipgModule : ReplikitModule
 {
     public override void ConfigureServices(IServiceCollection services)
     {

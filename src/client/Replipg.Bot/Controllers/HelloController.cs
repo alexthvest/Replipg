@@ -4,7 +4,7 @@ using Replikit.Core.Controllers.Patterns;
 
 namespace Replipg.Bot.Controllers;
 
-public class HelloController : Controller
+internal class HelloController : Controller
 {
     [Pattern("hi")]
     public OutMessage Hello() => "Чё звал, сларк";
